@@ -63,7 +63,7 @@ latest/
 ├── eslint.config.js
 ├── .gitignore
 └── README.md
-
+```
 - component1/Student.jsx – Student profile component using props
 - component2/StudentMarks.jsx – Student marks component using props and state
 - component3/Login.jsx – Login form component using state
