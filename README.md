@@ -102,9 +102,9 @@ The component displays:
 
 Student Profile
 
-Name: Rahul
+Name:Abhi
 Roll No: 101
-Course: BCA
+Course: AI&DS
 College: ABC College
 
 ## How It Works
@@ -272,7 +272,8 @@ The Login component checks the entered values and displays the appropriate messa
 
 # 🔄 Application Flow
 
-The overall application follows a component-based structure:
+The overall application follows a component-based structure
+```text
 
 ┌──────────────────────┐
 │   React Application  │
@@ -300,6 +301,7 @@ The overall application follows a component-based structure:
                     ┌──────────────────┐
                     │ User Interaction │
                     └──────────────────┘
+```
 
 ---
 
