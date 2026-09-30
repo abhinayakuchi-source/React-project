@@ -274,21 +274,32 @@ The Login component checks the entered values and displays the appropriate messa
 
 The overall application follows a component-based structure:
 
-React Application
-        |
-        v
-     App.jsx
-        |
-   +----+----+
-   |    |    |
-   v    v    v
-Student  StudentMarks  Login
-   |         |           |
-   v         v           v
- Props   Props + State  State
-              |
-              v
-       User Interaction
+┌──────────────────────┐
+│   React Application  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│       App.jsx        │
+└──────────┬───────────┘
+           │
+     ┌─────┼─────┐
+     │     │     │
+     ▼     ▼     ▼
+┌────────┐ ┌──────────────┐ ┌─────────┐
+│Student │ │StudentMarks  │ │  Login  │
+└───┬────┘ └──────┬───────┘ └────┬────┘
+    │             │              │
+    ▼             ▼              ▼
+┌────────┐   ┌───────────┐  ┌─────────┐
+│ Props  │   │Props+State│  │  State  │
+└────────┘   └─────┬─────┘  └────┬────┘
+                         │        │
+                         └───┬────┘
+                             ▼
+                    ┌──────────────────┐
+                    │ User Interaction │
+                    └──────────────────┘
 
 ---
 
