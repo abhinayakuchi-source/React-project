@@ -44,34 +44,25 @@ The project demonstrates how React components can receive data through props, ma
 ## 📂 Project Structure
 
 latest/
-│
-├── 📁 public/
-│
-├── 📁 src/
-│   │
-│   ├── 📁 component1/
-│   │   └── 📄 Student.jsx
-│   │
-│   ├── 📁 component2/
-│   │   └── 📄 StudentMarks.jsx
-│   │
-│   ├── 📁 component3/
-│   │   └── 📄 Login.jsx
-│   │
-│   ├── 📄 App.jsx
-│   ├── 📄 App.css
-│   ├── 📄 index.css
-│   └── 📄 main.jsx
-│
-├── 📄 index.html
-├── 📄 package.json
-├── 📄 package-lock.json
-├── 📄 vite.config.js
-├── 📄 eslint.config.js
-├── 📄 .gitignore
-└── 📄 README.md
-
-### Component Organization
+├── public/
+├── src/
+│   ├── component1/
+│   │   └── Student.jsx
+│   ├── component2/
+│   │   └── StudentMarks.jsx
+│   ├── component3/
+│   │   └── Login.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+├── .gitignore
+└── README.md
 
 - component1/Student.jsx – Student profile component using props
 - component2/StudentMarks.jsx – Student marks component using props and state
