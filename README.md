@@ -42,7 +42,7 @@ The project demonstrates how React components can receive data through props, ma
 ---
 
 ## 📂 Project Structure
-
+```text
 latest/
 ├── public/
 ├── src/
